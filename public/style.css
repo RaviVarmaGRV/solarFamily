@@ -1,0 +1,162 @@
+body{
+    font-family: "Antonio", serif;
+    font-family: "League Spartan", serif;
+    background: url('./assets/background-stars.svg'),#070724;
+    color: #ffffff;
+}
+
+@font-face {
+    font-family: "Spartan";
+    src: url("./spartan/Spartan-Medium.ttf");
+}
+
+h1{
+    font-family: "Antonio";
+    font-size: 80px;
+    line-height: 103px;
+    margin-bottom: 0px;
+}
+
+h2{
+    font-family: "Antonio";
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: -1.5px;
+}
+
+h3{
+    font-family: "Spartan";
+    font-size: 12px;
+    line-height: 25px;
+    letter-spacing: 2.6px;
+    /* color: #ffffff; */
+}
+
+h4{
+    font-family: "Spartan";
+    font-size: 11px;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+p{
+    font-family: "Spartan";
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.middle{
+    height: 625.5px;
+}
+
+#content{
+    height: 175px;
+}
+
+#planetImg{
+    background-image:url( "./assets/planet-mercury.svg");
+    height: 600px;
+    width: 600px;
+    background-repeat:no-repeat;
+    background-position: center;
+
+}
+
+.smlImg{
+    position: relative;
+    display: inline-block;
+
+}
+
+.smlImg::after{
+    content: "";
+    position: absolute;
+    left: 39%;
+    right: -10px;
+    bottom: 50px;
+    background:var(--bg-img);
+    height: 160px;
+    background-repeat: no-repeat;
+    background-size: 130px ;
+    width: 130px;
+}
+
+.thePlanets{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #38384F;
+}
+
+.allPlanets{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.middle{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.wholeDetails{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    /* border: 1px solid #ffffff; */
+    /* height: 20px; */
+}
+
+.src{
+    color: #ffffff80;
+    display: inline;
+}
+
+a{
+    color: #ffffff95;
+    font-weight: 700;
+}
+
+
+img:first-child{
+    margin-left: 80px;
+}
+/* .planetsView{} */
+
+.slightDim{
+    color: #ffffff95;
+}
+
+.views{
+    height: 50px;
+    margin-bottom: 13px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #38384F;
+    box-sizing: border-box;
+    padding-left: 10%;
+}
+
+.views:last-child{
+    margin-bottom: 0px;
+}
+
+.blueBg{
+    background-color: #419EBB;
+}
+
+.planetInfos{
+    padding: 10px 0px 0px 20px;
+    width: 255Px;
+    border: 1px solid #38384F;
+}
+
+.bottom{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 80px;
+}

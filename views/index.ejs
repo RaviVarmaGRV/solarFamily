@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <%- include('partials/header') %>
+    <div class="middle">
+        <div id="planetImg"></div>
+        <!-- <img src="./assets/planet-mercury.svg" alt="planet" id="planetImg" class="smlImg"> -->
+        <div class="wholeDetails">
+            <h1 id="name">Mercury</h1>
+            <p id="content">Mercury is the smallest planet in the Solar System and the closest to the Sun. Its orbit around the Sun takes 87.97 Earth days, the shortest of all the Sun's planets. Mercury is one of four terrestrial planets in the Solar System, and is a rocky body like Earth.</p>
+            
+            <div>
+                <p class="src">Source : </p>
+                <a href="" id="sourceAtag">Wikipedia </a> &nbsp;
+                <i class="fa-solid fa-square-arrow-up-right"></i>
+            </div>
+            <div class="planetsView">
+                <div class="views blueBg" id="overView"><h3> <span class="slightDim">01 </span> &nbsp; OVERVIEW</h3></div>
+                <div class="views" id="internalStructure"><h3> <span class="slightDim">02 </span> &nbsp; INTERNAL STRUCTURE</h3></div>
+                <div class="views" id="surfaceGeology"><h3> <span class="slightDim">03 </span> &nbsp; SURFACE GEOLOGY</h3></div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="planetInfos">
+            <h4 class="slightDim">ROTATION TIME</h4>
+            <h2 id="rotTime">58.6 Days</h2>
+        </div>
+        <div class="planetInfos">
+            <h4 class="slightDim">REVOLUTION TIME</h4>
+            <h2 id="revalTime">87.97 Days</h2>
+        </div>
+        <div class="planetInfos">
+            <h4 class="slightDim">RADIUS</h4>
+            <h2 id="radius">2,439.7 KM</h2>
+        </div>
+        <div class="planetInfos">
+            <h4 class="slightDim">AVERAGE TEMP </h4>
+            <h2 id="temp">430°c</h2>
+        </div>
+    </div>
+    <script src="./manager.js"></script>
+</body>
+</html>
