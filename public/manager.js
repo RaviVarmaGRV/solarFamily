@@ -58,7 +58,7 @@ document.getElementById('surfaceGeology').addEventListener('click',()=>{
 })
 
 async function call() {
-    var response=await fetch('http://localhost:3002/planets/'+(planets.indexOf(currentPlanet)+1))
+    var response=await fetch('/planets/'+(planets.indexOf(currentPlanet)+1))
     .then((res)=>res.json())
     .then((res)=>{
         data=res;
